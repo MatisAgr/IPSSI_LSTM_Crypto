@@ -52,6 +52,7 @@ Les graphiques seront automatiquement enregistrés dans le dossier `images/` et 
 IPSSI_LSTM_Crypto/Model-Matis/
 └── BitcoinLSTM.ipynb          # Notebook principal
     ├── best_lstm_model.keras      # Modèle pré-entraîné
+    ├── best_tft_model.keras      # Modèle TFT pré-entraîné
     ├── data/
     │   └── btcusd_1-min_data.csv  # Données d'entraînement
     ├── logs/
@@ -59,6 +60,32 @@ IPSSI_LSTM_Crypto/Model-Matis/
     ├── images/                    # Graphiques générés
     └── README.md
 ```
+
+
+
+
+# BONUS TFT
+
+### 1. Historique des Prix BTC/USD
+![BTC Price History](images/01_btc_price_history_tft.png)
+*Historique complet des prix du Bitcoin avec les statistiques (min, max, moyenne, écart-type)*
+
+### 2. Évolution de l'Entraînement
+![Training History](images/02_training_history_tft.png)
+*Évolution de la perte (MSE) et de l'erreur absolue moyenne (MAE) pendant l'entraînement*
+
+### 3. Prédictions Complètes
+![Full Predictions](images/03_predictions_full_tft.png)
+*Comparaison des prix réels vs prédits sur l'ensemble du dataset de test*
+
+### 4. Zoom sur les 100 Premières Prédictions
+![First 100 Predictions](images/04_predictions_first_100_tft.png)
+*Détail des 100 premières prédictions pour une meilleure visualisation de la précision*
+
+### 5. Zoom sur les 100 Dernières Prédictions
+![Last 100 Predictions](images/05_predictions_last_100_tft.png)
+*Détail des 100 dernières prédictions du modèle*
+
 
 ## 🔧 Dépendances
 

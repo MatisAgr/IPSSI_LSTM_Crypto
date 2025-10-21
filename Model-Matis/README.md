@@ -49,15 +49,15 @@ Les graphiques seront automatiquement enregistrés dans le dossier `images/` et 
 ## Structure du Projet
 
 ```
-IPSSI_LSTM_Crypto/
-├── BitcoinLSTM.ipynb          # Notebook principal
-├── best_lstm_model.keras      # Modèle pré-entraîné
-├── data/
-│   └── btcusd_1-min_data.csv  # Données d'entraînement
-├── logs/
-│   └── fit/                   # Logs TensorBoard
-├── images/                    # Graphiques générés
-└── README.md
+IPSSI_LSTM_Crypto/Model-Matis/
+└── BitcoinLSTM.ipynb          # Notebook principal
+    ├── best_lstm_model.keras      # Modèle pré-entraîné
+    ├── data/
+    │   └── btcusd_1-min_data.csv  # Données d'entraînement
+    ├── logs/
+    │   └── fit/                   # Logs TensorBoard
+    ├── images/                    # Graphiques générés
+    └── README.md
 ```
 
 ## 🔧 Dépendances

@@ -2,3 +2,4 @@ venv/
 data
 logs
 models
+LSTM/btcusd_1-min_data.csv
